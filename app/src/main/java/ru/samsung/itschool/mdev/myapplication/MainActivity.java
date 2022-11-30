@@ -20,10 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ed = findViewById(R.id.editText);
-        tv = findViewById(R.id.textView);
-        btn = findViewById(R.id.button);
-        btn.setOnClickListener(view -> openUrl());
+
     }
 
     public void changeTextView() {
